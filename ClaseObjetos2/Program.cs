@@ -23,7 +23,7 @@ xbox.Kinect = true;
 Console.WriteLine(xbox.MostrardetalleXbox());
 
 Dreamcast dream = new Dreamcast();
-dream.Marca = "Xbox 360";
+dream.Marca = "Sega Dreamcast";
 dream.anioLanzamiento = 1994;
 dream.Pantallita = true;
 

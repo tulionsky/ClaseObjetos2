@@ -12,7 +12,7 @@ namespace ClaseObjetos2.ClaseHijo
         public bool Pantallita { get; set; }
         public string Mostrardetalledreamcast()
         {
-            return MostrarDetalles + " Tiene pantalla: " + Pantallita;
+            return MostrarDetalles() + " Tiene pantalla: " + Pantallita;
         }
     }
 }

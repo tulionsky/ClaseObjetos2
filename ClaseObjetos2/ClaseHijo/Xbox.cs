@@ -12,7 +12,7 @@ namespace ClaseObjetos2.ClaseHijo
         public bool Kinect {  get; set; }   
         public string MostrardetalleXbox()
         {
-            return MostrarDetalles + " Tiene kinect: " + Kinect;
+            return MostrarDetalles() + " Tiene kinect: " + Kinect;
         }
     }
 }
